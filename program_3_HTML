@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function factoo()
+        {
+        let n=document.getElementById("num").value;
+         let i=1,fac=1;
+        for(i=1;i<=n;i++)
+        {
+          fac=fac*i;
+        }
+        // document.write(fac);
+        alert("The factorial is ="+fac);
+        
+        }
+    </script>
+</head>
+
+<body style="text-align:center;for-size:20px;">
+  Enter a number : <input type="text" id="num">
+  <br>
+   <button onclick="factoo()"> click me for factorial</button>
+
+
+</body>
+
+</html>
