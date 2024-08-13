@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPratice set</title>
+    
+</head>
+<body>
+    <script>
+        function clicky()
+        {
+            document.write(document.getElementById("txt1").value);   
+        }
+      
+
+    </script>
+    
+    Enter your name: <input type="text" id="txt1">
+    <button onclick="clicky()">click me </button>
+    <p id="p1"></p>
+
+
+
+</body>
+</html>
