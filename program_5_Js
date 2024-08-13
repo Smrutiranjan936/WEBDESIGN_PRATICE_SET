@@ -1,0 +1,5 @@
+    function clicky()
+        {
+            document.write(document.getElementById("txt1").value)  
+        }
+      
