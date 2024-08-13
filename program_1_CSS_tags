@@ -1,0 +1,70 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/go.png);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+  display: flex ; 
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logo{
+    width:10px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content:'' ;
+    width:0 ;
+    height: 3px;
+    background: rgb(251, 3, 3);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    Width:100%;
+
+}
+.Main{
+  margin-top: 20%;
+  font-size: 20px;  
+}
+.Main h3{
+    font-size: 30px;
+    margin-top:-100px;
+}
+.Main h1{
+    font-size: 70px;
+    margin-top: -55px ;
+}
+.about-col-2{
+    padding: 10px 2px;
+}
