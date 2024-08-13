@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shorcut icon"type="x-icon" href="icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smrutiranjan Mallick</title>
+    <link rel="stylesheet" href="profile.css">
+
+</head>
+<body>
+    <!-- this is for header file -->
+    <div id="header">
+        <div class="container">
+           <nav>
+                <img src="image/mylogo.png" alt="logo" height="350px" , width="350px">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Mode_Seting</a></li>
+                </ul>
+           </nav>
+           <div class="Main">
+                <h1>Hi,I'M Smrutiranjan <br> From IMIT College</h1>
+           </div> 
+        </div>
+    </div>
+   <!------------------------------- bottom page -------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/background.png" alt="" height="350px"width="600px">
+                </div>
+                <div class="about-col-2">
+                    <h1>
+                        About Me
+                    </h1>
+                </div>
+                <div class="about-col-2">
+                    <nav>
+                        Hey ... I am Smrutiranjan Mallick and 
+                        comes from Puri dist and Nimapada is my home town.
+                        I currently pursuing The Master in Computer Application in  
+                        Institute of Management and information Technology. 
+                        
+                    </nav>                  
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
