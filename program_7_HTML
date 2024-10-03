@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <script defer src="Portfolio.js"></script>
+    <title>Smrutiranjan Mallick</title>
+</head>
+
+<body>
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-user"></i>
+                    <p>About</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                    <p>Services</p>
+                </li>
+                <li onclick="Navigate(3)"><i class="fa-solid fa-images"></i>
+                    <p>Gallery</p>
+                </li>
+                <li onclick="Navigate(4)"><i class="fa-solid fa-connect"></i>
+                    <p>Contact Me</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hello . . . I'm <span class="stylized-name">Smrutiranjan</span>, </h1>
+                        <h2>A <span class="proffesions">Web Developer</span></h2>
+                        <p class="heroline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laboriosam
+                            magni impedit maxime iste dolor enim voluptatibus. Doloribus in, expedita dolorum laborum,
+                            soluta quod laudantium ducimus pariatur eaque illo possimus.</p>
+                        <div class="buttonGroup"><button>Here me</button><button>Contact Me</button></div>
+                    </div>
+                    <div class="SlideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="image section/6.png" alt="">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i></p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-us">
+                        <h1 class="heading">About Me</h1>
+                        <h3 class="sub-heading">I'm Smrutiranjan, <span class="proffesions">A Web Developer</span></h3>
+                        <p class="aboutme-deatils">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus odio laboriosam alias
+                            doloribus! Animi nihil autem quam at ut explicabo? Reiciendis ad dolorem alias, hic aut et
+                            placeat. Nemo cumque dolor quaerat debitis aperiam, sequi fuga repellat animi sunt itaque
+                            architecto accusamus exercitationem illo nobis rem ea aspernatur voluptatem tempora neque
+                            obcaecati tenetur laborum minus unde similique. Expedita aliquam voluptas corporis?
+                            Quibusdam praesentium placeat quod ratione dolores exercitationem natus corrupti amet in
+                            ullam nesciunt quidem neque voluptatibus, quam nihil, dolor autem mollitia.
+                        </p>
+                        <div class="about-me-divison">
+                            <div class="about-me-table">
+                                <ul>
+                                    <li><span>Masters</span>Institute of Management and Information Technology</li>
+                                    <li><span>Graduation</span>Nimapada Autonomous College</li>
+                                    <li><span>Intermediate</span>Nimapada Junior College</li>
+                                    <li><span>Matriculation</span>Bhatabandha High School</li>
+                                </ul>
+                                <div class="buttonGroup"><button>Hire Me</button><button>Contact Me</button></div>
+                            </div>
+                            <div class="skill-bar">
+                                <ul>
+                                <li>
+                                    <p>HTML</p>
+                                    <div class="active-bar" style="width: 95%;"></div>
+                                </li>
+                                <li>
+                                    <p>CSS</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width: 80%;"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>JavaScript</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width: 70%;"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>Python</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:85%;"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>node.js</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:45%;"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>React</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:55%;"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>PHP</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:65%;"></div>
+                                    </div>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide Services">
+                    <h1 class="heading">Services</h1>
+                    <div class="service">
+                        <div class="service-icon"> <i class="fa-solid fa-pen-ruler"></i></div>
+                        <h2>Editer</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor eaque deserunt atque eos in
+                            odio necessitatibus dignissimos debitis tempora exercitationem dolores harum assumenda,
+                            animi consequuntur quasi, sunt nostrum iure fugit?</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"> <i class="fa-solid fa-globe"></i></div>
+                        <h2>Web Devement</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium minus, laudantium non,
+                            in et distinctio quasi nam nisi repellendus maxime tempora reprehenderit laboriosam quisquam
+                            omnis, aut est perspiciatis dicta aperiam.</p>
+                    </div>
+                    <div class="service"></div>
+                    <div class="service-icon"> <i class="fa-solid fa-image"></i></div>
+                    <h2>Graphic Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium minus, laudantium non, in
+                        et distinctio quasi nam nisi repellendus maxime tempora reprehenderit laboriosam quisquam omnis,
+                        aut est perspiciatis dicta aperiam.</p>
+                </div>
+                <div class="service"></div>
+                <div class="service-icon"> <i class="fa-solid fa-mobile-screen-button"></i></div>
+                <h2>Software Devement</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium minus, laudantium non, in et
+                    distinctio quasi nam nisi repellendus maxime tempora reprehenderit laboriosam quisquam omnis, aut
+                    est perspiciatis dicta aperiam.</p>
+            </div>
+        </div>
+        <div class="swiper-slide gallery">
+            <h1 class="heading">Gallery</h1>
+            <div class="Project"><img src="image section/2.png" alt=""></div>
+            <div class="Project"><img src="image section/3.png" alt=""></div>
+            <div class="Project"><img src="image section/7.png" alt=""></div>
+            <div class="Project"><img src="image section/5.png" alt=""></div>
+            <div class="Project"><img src="image section/4.png" alt=""></div>
+        </div>
+        <div class="swiper-slide ContactMe">
+            <h1 class="heading">Contact Me</h1>
+            <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                <h3>Mobile No</h3>
+                <p>8260605124</p>
+            </div>
+            <div class="contactinfo"><i class="fa-solid fa-locartion-dot"></i>
+                <h3>Location</h3>
+                <p>Puri</p>
+            </div>
+            <div class="contactinfo"><i class="fa-regular fa-envelope"></i>
+                <h3>Email</h3>
+                <p>s65628909@gmail.com</p>
+            </div>
+            <form>
+                <h2>Send Me A Message
+                    <div class="SocialLinks">
+                        <i class="fa-brands fa-LinkedIn"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-x"></i>
+                        <i class="fa-brands fa-snapchart"></i>
+                    </div>
+                </h2>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="email">
+                <textarea name="10" placeholder="Type your Message Here..."></textarea>
+                <button class="primary">Send</button>
+            </form>
+            <footer>
+                <li>Thanks You To visit.</li>
+            </footer>
+        </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
